@@ -1,0 +1,212 @@
+/* Tag selectors */
+
+.header{
+    margin-top: 0;
+    background-color: black;
+}
+
+body{
+    background-color: rgb(44, 44, 180);
+    color: rgb(0, 255, 26);
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar  */
+
+.fa-spotify{
+    color: white;
+}
+
+.brand-logo{
+    margin-right: 30rem;
+    margin-left: 10rem;
+    display: inline-block;
+    /* font-size: 3rem; */
+}
+
+.brand-name{
+    display: inline;
+    position: relative;
+    padding: 0.2rem 0.2rem 1rem 0.2rem;
+}
+
+
+.brand-logo a{
+    font-size: 1.75rem;
+    padding-left: 0.6rem;
+    position: relative;
+    bottom:7px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+.nav-list{
+    list-style-type: none;
+    padding: 0.8rem;
+
+}
+
+.nav-items{
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 1rem;
+    position: relative;
+    bottom:10px;
+    color: white;
+}
+
+.nav-items a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-items a:hover{
+    color: rgb(0, 255, 26);
+}
+
+/* body section  */
+
+.main-body{
+    text-align: center;
+    align-items: center;
+}
+
+.tagline{
+    
+    margin-top: 10rem;
+    letter-spacing: -0.5rem;
+    font-size: 10rem;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 11rem;
+   
+}
+
+.tagline2{
+    margin-top: 1.6rem;
+    font-weight: 500;
+}
+
+/* .get-spotify-button{
+    background-color: rgb(0, 255, 26);
+    color: rgb(44, 44, 180);
+    border:none;
+    border-radius: 30%;
+} */
+
+.get-spotify-button a{
+    /* background-color: rgb(0, 255, 26); */
+    color: rgb(44, 44, 180);
+    text-decoration: none;
+    /* border-radius: 30%; */
+    font-size: 0.8rem;
+    font-weight :600;
+    padding:1rem;
+}
+.get-spotify-button a:hover{
+    text-decoration: none;
+    color: #2c2cb4;
+}
+
+.get-spotify-button {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #2c2cb4;
+    font-size: 20px;
+    background: #00ff1a;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    margin: 1.2rem;
+  }
+  
+  .get-spotify-button:hover {
+    background: #00ff1a;
+    text-decoration: none;
+  }
+
+
+/* Footer Secton  */
+
+.footer{
+    background-color: black;
+    color: grey;
+}
+
+.footer-divs{
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    padding: 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    position: relative;
+    bottom :auto;
+    /* height: 5rem; */
+    /* position: absolute; */
+}
+
+.footer-links{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links:hover{
+    color:rgb(0, 255, 26);
+}
+
+.footer-lists{
+    list-style-type: none;
+}
+
+.footer-brand-name{
+    color:white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-lists li{
+    margin: 1.5rem 0;
+}
+
+.footer-container {
+    display: flex;
+}
+
+
+.footer-container-list-items{
+    display: inline-block;
+    
+}
+
+.social-icons{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color:white;
+    
+}
+
+.social-icons:hover{
+    color:rgb(0, 255, 26);
+}
+
+.social-icons-list li{
+    display: inline-block;
+
+}
